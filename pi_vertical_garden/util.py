@@ -20,10 +20,12 @@ def get_soil_sensor_dic():
         humidity = sensor.read_humidity(temp)
         dew_point = sensor.calculate_dew_point(temp, humidity)
         # print(sensor)
+        now = get_now_timestamp()
         out_dic = {
             'temp'     : temp,
             'humidity' : humidity,
-            'dew_point': dew_point
+            'dew_point': dew_point,
+            'secs'
         }
     return out_dic
 
@@ -47,7 +49,7 @@ def valve_off():
     GPIO.setmode(GPIO.BCM)
     GPIO.output(RELAY_PIN,1)
 
-def get_now_timestamps():
+def get_now_timestamp():
     now = dt.datetime.now()
     return pd.Timestamp(now)
 
