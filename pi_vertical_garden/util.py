@@ -35,7 +35,9 @@ def setup_valve():
 # setup_valve()
 
 def valve_on():
+    GPIO.setmode(GPIO.BCM)
     GPIO.output(RELAY_PIN,0)
 
 def valve_off():
+    GPIO.setmode(GPIO.BCM)
     GPIO.output(RELAY_PIN,1)
