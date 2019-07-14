@@ -54,5 +54,5 @@ def get_now_timestamp():
     return pd.Timestamp(now)
 
 def get_today_string():
-    now = get_now_timestamps()
+    now = get_now_timestamp()
     return now.strftime('%Y-%m-%d')
