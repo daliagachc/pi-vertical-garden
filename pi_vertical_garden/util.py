@@ -4,6 +4,11 @@
 from pi_sht1x import SHT1x
 import RPi.GPIO as GPIO
 
+import pandas as pd
+import os
+import sqlite3 as sq3
+import datetime as dt
+
 DATA_PIN = 18
 SCK_PIN = 23
 RELAY_PIN = 6
@@ -41,3 +46,11 @@ def valve_off():
     setup_valve()
     GPIO.setmode(GPIO.BCM)
     GPIO.output(RELAY_PIN,1)
+
+def get_now_timestamps():
+    now = dt.datetime.now()
+    return pd.Timestamp(now)
+
+def get_today_string():
+    now = get_now_timestamps()
+    return now.strftime('%Y-%m-%d')
