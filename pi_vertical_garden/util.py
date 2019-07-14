@@ -24,7 +24,8 @@ def get_soil_sensor_dic():
         out_dic = {
             'temp'     : temp,
             'humidity' : humidity,
-            'dew_point': dew_point
+            'dew_point': dew_point,
+            'dt_secs'  : timestamp2unix(now)
         }
     return out_dic
 
@@ -55,3 +56,9 @@ def get_now_timestamp():
 def get_today_string():
     now = get_now_timestamp()
     return now.strftime('%Y-%m-%d')
+
+def timestamp2unix(ts):
+    return ts.values/10**9
+
+def unix2timestamp(ut):
+    return pd.to_datetime(ut*10**9)
