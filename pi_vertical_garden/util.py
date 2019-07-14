@@ -26,8 +26,16 @@ def get_soil_sensor_dic():
 # get_soil_sensor_dic()
 
 
+def setup_valve():
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(RELAY_PIN, GPIO.OUT)
+    GPIO.output(RELAY_PIN, 1)
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(RELAY_PIN, GPIO.OUT)
-GPIO.output(RELAY_PIN,1)
-GPIO.output(RELAY_PIN,0)
+
+# setup_valve()
+
+def valve_on():
+    GPIO.output(RELAY_PIN,0)
+
+def valve_off():
+    GPIO.output(RELAY_PIN,1)
