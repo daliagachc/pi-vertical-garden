@@ -58,7 +58,7 @@ def get_today_string():
     return now.strftime('%Y-%m-%d')
 
 def timestamp2unix(ts):
-    return ts.values/10**9
+    return ts.value/10**9
 
 def unix2timestamp(ut):
     return pd.to_datetime(ut*10**9)
