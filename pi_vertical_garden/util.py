@@ -24,8 +24,7 @@ def get_soil_sensor_dic():
         out_dic = {
             'temp'     : temp,
             'humidity' : humidity,
-            'dew_point': dew_point,
-            'secs'
+            'dew_point': dew_point
         }
     return out_dic
 
