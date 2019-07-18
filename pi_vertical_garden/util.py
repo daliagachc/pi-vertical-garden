@@ -16,7 +16,7 @@ COL_HUMIDITY = 'humidity'
 
 COL_DEW_POINT = 'dew_point'
 
-COL_DT_SECS = COL_DT_SECS
+COL_DT_SECS = 'dt_secs'
 
 SOIL_DATA_TB_NAME = 'soil_data'
 

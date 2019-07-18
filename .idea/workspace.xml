@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="928373f7-8de0-4951-8e93-daad49e987f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/diego.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init_config_scripts/init_script.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pi_vertical_garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pi_vertical_garden/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pi_vertical_garden/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pi_vertical_garden/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pi_vertical_garden/pi-vertical-garden.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pi_vertical_garden/pi_vertical_garden/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pi_vertical_garden/pi_vertical_garden/util.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pi_vertical_garden/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pi_vertical_garden/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi_vertical_garden/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init_config_scripts/init_script.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="420">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -269,23 +258,22 @@
       <option name="presentableId" value="Default" />
       <updated>1563125138618</updated>
       <workItem from="1563125140122" duration="11307000" />
-      <workItem from="1563413707858" duration="3878000" />
+      <workItem from="1563413707858" duration="4179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19232000" />
+    <option name="totallyTimeSpent" value="19533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.51867664" side_tool="true" weight="0.26797387" />
       <window_info id="Structure" order="4" sideWeight="0.48245615" side_tool="true" visible="true" weight="0.2741148" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.51754385" visible="true" weight="0.2741148" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.51754385" visible="true" weight="0.2741148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32785088" />
@@ -295,11 +283,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32894737" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init_config_scripts/init_script.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="420">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
