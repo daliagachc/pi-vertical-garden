@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt update
-sudo apt install -y tmux vim zsh
+sudo apt install -y tmux vim zsh supervisor
 #intall oh my zsell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -37,7 +37,9 @@ sudo jupyter notebook password
 
 #sudo jupyter lab --allow-root --notebook-dir=./
 
-git clone https://github.com/daliagachc/pi-vertical-garden.git
+sudo git clone https://github.com/daliagachc/pi-vertical-garden.git
 git config --global user.email "daliaga@chacaltaya.edu.bo"
 git config --global user.name "daliagachc"
-sudo pip3 install -e ./pi_vertical_garden/
+sudo git config --global user.email "daliaga@chacaltaya.edu.bo"
+sudo git config --global user.name "daliagachc"
+sudo pip3 install -e ./pi-vertical-garden/
