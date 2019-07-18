@@ -8,5 +8,5 @@ setup(
     license='',
     author='diego aliaga',
     author_email='',
-    description=''
+    description='', install_requires=['pandas']
 )
