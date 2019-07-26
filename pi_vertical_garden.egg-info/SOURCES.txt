@@ -1,8 +1,0 @@
-README.md
-pi_vertical_garden/__init__.py
-pi_vertical_garden/util.py
-pi_vertical_garden.egg-info/PKG-INFO
-pi_vertical_garden.egg-info/SOURCES.txt
-pi_vertical_garden.egg-info/dependency_links.txt
-pi_vertical_garden.egg-info/requires.txt
-pi_vertical_garden.egg-info/top_level.txt
